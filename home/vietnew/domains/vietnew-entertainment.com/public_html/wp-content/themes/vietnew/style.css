@@ -1,0 +1,42 @@
+/*
+Theme Name: vietnew
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+/*Popup*/
+.pum-title.popmake-title {
+    font-weight: 500;
+    text-align: center;
+}
+.pum-theme-48 .pum-container, .pum-theme-lightbox .pum-container {
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
+	margin-top: 10px;
+    border-radius: 10px;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    border-radius: 10px;
+    width: 50%;
+    background-color: #01582A;
+    padding: 3px;
+	margin-left: 25%;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
